@@ -1,0 +1,15 @@
+{
+  "currency": "USD",
+  "base_price": 100000,
+  "gross_annual_revenue": 1000,
+  "cam_fee_monthly_sqm": 2,
+  "built_area_sqm": 50,
+  "sinking_fund_annual_reserve": 300,
+  "property_management_fee_rate": 0.2,
+  "withholding_tax_rate": 0.1,
+  "transfer_tax_rate": 0.01,
+  "legal_fee": 500,
+  "furniture_cost": 2000,
+  "utility_fee": 100,
+  "annual_maintenance_reserve": 200
+}

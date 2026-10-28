@@ -1,0 +1,3 @@
+include MIGRATION.md
+include examples/loss.json
+recursive-include tests *.py

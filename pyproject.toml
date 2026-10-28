@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "novasia-proptech"
+version = "1.0.0"
+description = "Explicit-assumption rental cash flow, acquisition cost and loss scenarios for property data workflows."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "NovAsia Estate", email = "contact@novasia.estate"}]
+keywords = ["real-estate", "proptech", "rental-yield", "cash-flow", "scenario-analysis", "southeast-asia"]
+classifiers = ["Development Status :: 4 - Beta", "Programming Language :: Python :: 3"]
+
+[project.urls]
+Homepage = "https://novasia.estate/"
+Repository = "https://github.com/novasia-estate/novasia-proptech"
+Issues = "https://github.com/novasia-estate/novasia-proptech/issues"
+Scenarios = "https://huggingface.co/datasets/novasia-estate/southeast-asia-property-net-yield-benchmark"
+
+[project.scripts]
+novasia-proptech = "novasia_proptech.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["novasia_proptech*"]
